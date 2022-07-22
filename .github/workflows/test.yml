@@ -1,0 +1,8 @@
+name: "My first github actions project"
+on: [push]
+jobs: 
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: "hello world!!!!"
+      - run: "this is step number 2"
