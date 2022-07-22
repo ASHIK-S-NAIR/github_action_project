@@ -1,4 +1,4 @@
-name: "My first github actions project"
+name: My first github actions project
 on: [push]
 jobs: 
   print-hello-world:
